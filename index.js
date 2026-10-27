@@ -15,6 +15,10 @@ const server = http.createServer((req, res) => {
     }else if (req.url === '/contact-me'){
         path+='contact-me.html'
         res.statusCode = 200
+    }else if (req.url === '/styles.css'){
+        path+='styles.css'
+        res.statusCode = 200
+        res.setHeader('Content-Type', 'text/css')
     }else {
         path+='404.html'
         res.statusCode = 404
