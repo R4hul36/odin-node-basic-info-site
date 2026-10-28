@@ -8,7 +8,10 @@ body {
   color: #333;
 }
 
-/* Navigation bar */
+h1,h2,p{
+  margin-left: 3rem;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -41,3 +44,12 @@ body {
 .nav-links a:hover {
     color: #0077cc;
 }
+
+.btn {
+  margin-left: 3rem;
+  list-style: none;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+} 
